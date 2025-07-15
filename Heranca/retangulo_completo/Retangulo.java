@@ -29,4 +29,11 @@ public class Retangulo extends FormaGeometrica {
     public double area() {
        return this.largura * this.altura;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "[Retangulo] "
+                 + largura + " / "
+                + altura;
+    }
 }
