@@ -17,6 +17,6 @@ public class Quadrado extends Retangulo {
     @Override
     public String toString() {
         return "[Quadrado] " +
-                + lado;
+                + String.format("%.1f", lado);
     }
 }
