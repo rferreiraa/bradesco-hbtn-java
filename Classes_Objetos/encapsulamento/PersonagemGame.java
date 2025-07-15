@@ -15,6 +15,6 @@ public class PersonagemGame {
         this.nome = nome;
     }
 
-    public int saudeAtual;
-    public String nome;
+    private int saudeAtual;
+    private String nome;
 }
