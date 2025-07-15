@@ -10,9 +10,9 @@ public class PersonagemGame {
     public void setSaudeAtual(int saudeAtual) {
         if (saudeAtual <= 0) {
             saudeAtual = 0;
-            setStatus("morto");
+            status = "morto";
         }else {
-            setStatus("vivo");
+            status = "vivo";
         }
         if (saudeAtual > 100) {
             saudeAtual = 100;
@@ -30,10 +30,6 @@ public class PersonagemGame {
 
     public String getStatus() {
         return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
     }
 
     public void tomarDano(int quantidadeDeDano) {
