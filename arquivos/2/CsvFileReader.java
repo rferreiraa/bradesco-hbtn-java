@@ -28,8 +28,6 @@ public class CsvFileReader {
                 System.out.println("Salarial: " + dados[3]);
                 System.out.println("------------------------");
             }
-
-            System.out.println("Leitura do arquivo concluída.");
         } catch (IOException e) {
             System.out.println("Erro ao ler o arquivo: " + e.getMessage());
         }
