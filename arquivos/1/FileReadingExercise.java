@@ -13,7 +13,6 @@ public class FileReadingExercise {
             while ((linha = reader.readLine()) != null) {
                 System.out.println(linha);
             }
-            System.out.println("\nLeitura do arquivo concluída.");
         } catch (IOException e) {
             System.out.println("Ocorreu um erro ao ler o arquivo: " + e.getMessage());
         }
