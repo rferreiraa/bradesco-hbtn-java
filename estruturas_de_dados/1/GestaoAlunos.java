@@ -59,7 +59,5 @@ public class GestaoAlunos {
         gestao.excluirAluno("Pedro");
 
         gestao.buscarAluno("Maria");
-
-        gestao.listarAlunos();
     }
 }
