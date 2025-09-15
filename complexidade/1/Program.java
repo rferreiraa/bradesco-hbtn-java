@@ -1,6 +1,6 @@
 public class Program {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         long inicio  = System.nanoTime();
         try {
             PessoasArray p = new PessoasArray();

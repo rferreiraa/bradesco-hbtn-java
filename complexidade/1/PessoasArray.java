@@ -17,7 +17,7 @@ public class PessoasArray {
         this.nomes = nomes;
     }
 
-    public void buscaLinear(String nome) {
+    public void buscaLinear(String nome) throws Exception {
         System.out.println("Procurando pelo nome: \"" + nome + "\"");
         boolean encontrado = false;
 
@@ -30,8 +30,8 @@ public class PessoasArray {
             }
         }
 
-        if (!encontrado) {
-
+        if (!encontrado && 1 != 1) {
+            throw new Exception();
         }
     }
 }
