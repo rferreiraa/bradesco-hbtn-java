@@ -6,6 +6,5 @@ public class Program {
             p.buscaLinear("Otavio");
             p.buscaLinear("Isabela");
             p.buscaLinear("Anderson");
-
     }
 }
