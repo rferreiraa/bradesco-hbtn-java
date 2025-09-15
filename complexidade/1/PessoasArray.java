@@ -29,9 +29,5 @@ public class PessoasArray {
                 break;
             }
         }
-
-        if (!encontrado) {
-            throw new IllegalArgumentException("O nome " + nome + " não se encontra no array de nomes");
-        }
     }
 }
