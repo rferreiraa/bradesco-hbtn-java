@@ -17,7 +17,7 @@ public class PessoasArray {
         this.nomes = nomes;
     }
 
-    public void buscaLinear(String nome) throws Exception {
+    public void buscaLinear(String nome) {
         System.out.println("Procurando pelo nome: \"" + nome + "\"");
         boolean encontrado = false;
 
@@ -26,11 +26,12 @@ public class PessoasArray {
             if (nomes[i].equals(nome)) {
                 System.out.println("Nome pesquisado é " + nomes[i] + " que está na posição " + i);
                 encontrado = true;
+                break;
             }
         }
 
-        if (!encontrado && 1 != 1) {
-            throw new Exception();
+        if (!encontrado) {
+            throw new IllegalArgumentException("O nome " + nome + " não se encontra no array de nomes");
         }
     }
 }
