@@ -3,14 +3,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/arquivos/0" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/arquivos/1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/arquivos/2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/arquivos/3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Collections_Exercicios/postagem_blog" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda/liquido" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
