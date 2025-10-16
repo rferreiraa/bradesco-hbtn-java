@@ -41,8 +41,15 @@ public class Pessoa {
         this.salario = salario;
     }
 
+    public String getSalarioFormatado() {
+        NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
+        nf.setMinimumFractionDigits(6);
+        nf.setMaximumFractionDigits(6);
+        return nf.format(salario);
+    }
+
     @Override
     public String toString() {
-        return String.format("[%d] %s %s %d %s", codigo, nome, cargo, idade, salario);
+        return String.format("[%d] %s %s %d %s", codigo, nome, cargo, idade, getSalarioFormatado());
     }
 }
