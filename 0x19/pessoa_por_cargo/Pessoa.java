@@ -3,10 +3,10 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Pessoa {
-    private Integer codigo;
+    private int codigo;
     private String nome;
     private String cargo;
-    private Integer idade;
+    private int idade;
     private double salario;
 
     public Pessoa(Integer codigo, String nome, String cargo, Integer idade, double salario) {
