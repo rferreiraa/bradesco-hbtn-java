@@ -21,8 +21,8 @@ public class Program {
         Produto produtoMaior2 = Consulta.obterProdutoMaiorPreco(pedido2.getProdutos());
         Produto produtoMaior3 = Consulta.obterProdutoMaiorPreco(pedido3.getProdutos());
 
-        System.out.println(produtoMaior1);
-        System.out.println(produtoMaior2);
-        System.out.println(produtoMaior3);
+        System.out.println(produtoMaior1.toString().replace(".", ","));
+        System.out.println(produtoMaior2.toString().replace(".", ","));
+        System.out.println(produtoMaior3.toString().replace(".", ","));
     }
 }
