@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Streams_Collector_Optional_Exercicios/hobbies_por_cargo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/0" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
