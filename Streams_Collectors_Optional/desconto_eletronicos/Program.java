@@ -34,9 +34,9 @@ public class Program {
         List<Produto> produtosPedido3 = Consulta.aplicar15PorcentoDescontoEletronicos(pedido3.getProdutos());
         List<Produto> produtosPedido4 = Consulta.aplicar15PorcentoDescontoEletronicos(pedido4.getProdutos());
 
-        System.out.println(produtosPedido1);
-        System.out.println(produtosPedido2);
-        System.out.println(produtosPedido3);
-        System.out.println(produtosPedido4);
+        System.out.println(produtosPedido1.toString().replace(".", ","));
+        System.out.println(produtosPedido2.toString().replace(".", ","));
+        System.out.println(produtosPedido3.toString().replace(".", ","));
+        System.out.println(produtosPedido4.toString().replace(".", ","));
     }
 }

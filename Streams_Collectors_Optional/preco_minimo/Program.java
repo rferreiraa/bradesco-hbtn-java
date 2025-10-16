@@ -21,8 +21,8 @@ public class Program {
         List<Produto> produtosMinimo2 = Consulta.obterProdutosPorPrecoMinimo(pedido2.getProdutos(), 500);
         List<Produto> produtosMinimo3 = Consulta.obterProdutosPorPrecoMinimo(pedido3.getProdutos(), 30);
 
-        System.out.println(produtosMinimo1);
-        System.out.println(produtosMinimo2);
-        System.out.println(produtosMinimo3);
+        System.out.println(produtosMinimo1.toString().replace(".", ","));
+        System.out.println(produtosMinimo2.toString().replace(".", ","));
+        System.out.println(produtosMinimo3.toString().replace(".", ","));
     }
 }
