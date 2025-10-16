@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/estruturas_de_dados/2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Streams_Collector_Optional_Exercicios/pessoas_por_cargo_ordem_reversa" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
