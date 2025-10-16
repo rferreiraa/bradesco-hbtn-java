@@ -43,6 +43,7 @@ public class Pessoa {
 
     public String getSalarioFormatado() {
         NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
+        nf.setGroupingUsed(false);
         nf.setMinimumFractionDigits(6);
         nf.setMaximumFractionDigits(6);
         return nf.format(salario);
