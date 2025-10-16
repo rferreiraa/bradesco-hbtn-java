@@ -1,4 +1,6 @@
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -42,15 +44,16 @@ public class Pessoa {
     }
 
     public String getSalarioFormatado() {
-        NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
-        nf.setGroupingUsed(false);
-        nf.setMinimumFractionDigits(6);
-        nf.setMaximumFractionDigits(6);
-        return nf.format(salario);
+        DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.getDefault());
+        symbols.setGroupingSeparator('\0');
+        symbols.setDecimalSeparator(',');
+
+        DecimalFormat df = new DecimalFormat("0.000000", symbols); // 6 casas decimais
+        return df.format(salario);
     }
 
     @Override
     public String toString() {
-        return String.format("[%d] %s %s %d %s", codigo, nome, cargo, idade, getSalarioFormatado());
+        return String.format("[%d] %s %s %d R$ %s", codigo, nome, cargo, idade, getSalarioFormatado());
     }
 }
