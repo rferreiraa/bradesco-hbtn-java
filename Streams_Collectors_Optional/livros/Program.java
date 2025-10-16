@@ -2,7 +2,6 @@ import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
-        Locale.setDefault(new Locale("pt", "BR"));
         Produto produto1 = new Produto(1, "Carro Vortex", CategoriaProduto.BRINQUEDO, 799.90);
         Produto produto2 = new Produto(2, "Smart TV LED 32 HD LG", CategoriaProduto.ELETRONICO, 1452.55);
         Produto produto3 = new Produto(3, "Nintendo Switch", CategoriaProduto.ELETRONICO, 2990.00);
@@ -22,8 +21,8 @@ public class Program {
         List<Produto> produtosLivro2 = Consulta.obterLivrosDoPedido(pedido2);
         List<Produto> produtosLivro3 = Consulta.obterLivrosDoPedido(pedido3);
 
-        System.out.println(produtosLivro1);
-        System.out.println(produtosLivro2);
-        System.out.println(produtosLivro3);
+        System.out.println(produtosLivro1.toString().replace(".", ","));
+        System.out.println(produtosLivro2.toString().replace(".", ","));
+        System.out.println(produtosLivro3.toString().replace(".", ","));
     }
 }
