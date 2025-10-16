@@ -2,9 +2,9 @@ public class Produto {
     private int codigo;
     private String nome;
     private CategoriaProduto categoria;
-    private double preco;
+    private Double preco;
 
-    public Produto(int codigo, String nome, CategoriaProduto categoria, double preco) {
+    public Produto(int codigo, String nome, CategoriaProduto categoria, Double preco) {
         this.codigo = codigo;
         this.nome = nome;
         this.categoria = categoria;
@@ -23,7 +23,7 @@ public class Produto {
         return categoria;
     }
 
-    public double getPreco() {
+    public Double getPreco() {
         return preco;
     }
 

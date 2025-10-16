@@ -7,7 +7,6 @@ public class Consulta {
         return produtos.stream()
                 .map(produto -> {
                     if (produto.getCategoria() == CategoriaProduto.ELETRONICO) {
-                        // cria uma nova instância com desconto aplicado
                         return new Produto(
                                 produto.getCodigo(),
                                 produto.getNome(),

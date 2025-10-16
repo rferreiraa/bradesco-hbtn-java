@@ -1,8 +1,11 @@
+import java.text.NumberFormat;
+import java.util.Locale;
+
 public class Produto {
     private int codigo;
     private String nome;
     private CategoriaProduto categoria;
-    private double preco;
+    private Double preco;
 
     public Produto(int codigo, String nome, CategoriaProduto categoria, double preco) {
         this.codigo = codigo;
